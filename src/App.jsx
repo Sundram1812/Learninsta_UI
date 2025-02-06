@@ -5,7 +5,7 @@ import Home from "./component/hero/Home";
 // import Interviews from "./component/Interview/Interviews";
 import AboutUs from "./component/about/AboutUs";
 import ContactUs from "./component/contact/ContactUs";
-import NavBar from "/src/component/navigation/Navbar";
+import NavBar from "./component/navigation/Navbar";
 import Footer from "./footer/Footer";
 import Signin from "./component/user/Signin";
 import Signup from "./component/user/Signup";
