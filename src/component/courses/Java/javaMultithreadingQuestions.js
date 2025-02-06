@@ -1,4 +1,7 @@
 const javaMultithreadingQuestions = {
+
+  title: "Java - Multithreading",
+
   questions: [
     {
       content: {
@@ -224,7 +227,7 @@ const javaMultithreadingQuestions = {
         answer:
           "If a thread throws an uncaught exception, the JVM handles it using the default uncaught exception handler.",
         explanation:
-          "You can customize the behavior by setting your own UncaughtExceptionHandler using Thread.setDefaultUncaughtExceptionHandler().",
+          "You can customize the behavior by setting your own UncaughtExceptionHandler using Thread. setDefaultUncaughtExceptionHandler()",
         codeSnippet: `
   Thread thread = new Thread(() -> {
       throw new RuntimeException("Test exception");

@@ -70,7 +70,7 @@ const ComparisonTable = ({format}) => {
   });
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto ">
       <h1 className="text-2xl font-bold text-center dark:text-gray-200 text-black mb-6">{format.topic}</h1>
       <div>
         {/* Headings */}

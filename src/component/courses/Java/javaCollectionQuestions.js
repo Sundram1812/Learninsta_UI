@@ -1,4 +1,6 @@
 const javaCollectionQuestions = {
+  title: "Java - Collection Framework",
+
   questions: [
     {
       content: {
@@ -39,7 +41,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What is the significance of the null element in HashSet, HashMap, and Hashtable?",
-        compareHeading: ["Feature", "HashSet", "HashMap", "Hashtable"],
+        compareHeading: [ "HashSet", "HashMap", "Hashtable"],
         comparision: [
           {
             HashSet: {
@@ -245,7 +247,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What are the differences between Collection and Collections in Java?",
-        compareHeading: ["Feature", "Collection", "Collections"],
+        compareHeading: [ "Collection", "Collections"],
         comparision: [
           {
             Collection: {
@@ -279,7 +281,7 @@ const javaCollectionQuestions = {
     {
       comparision: {
         question: "What is the difference between ArrayList and LinkedList?",
-        compareHeading: ["Feature", "ArrayList", "LinkedList"],
+        compareHeading: [ "ArrayList", "LinkedList"],
         comparision: [
           {
             ArrayList: {
@@ -310,7 +312,7 @@ const javaCollectionQuestions = {
     {
       comparision: {
         question: "What is the difference between HashSet and TreeSet?",
-        compareHeading: ["Feature", "HashSet", "TreeSet"],
+        compareHeading: [ "HashSet", "TreeSet"],
         comparision: [
           {
             HashSet: {
@@ -340,7 +342,7 @@ const javaCollectionQuestions = {
     {
       comparision: {
         question: "What is the difference between HashMap and Hashtable?",
-        compareHeading: ["Feature", "HashMap", "Hashtable"],
+        compareHeading: [ "HashMap", "Hashtable"],
         comparision: [
           {
             HashMap: {
@@ -369,7 +371,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What is the difference between Vector and ArrayList? Why is Vector considered legacy?",
-        compareHeading: ["Feature", "Vector", "ArrayList"],
+        compareHeading: [ "Vector", "ArrayList"],
         comparision: [
           {
             Vector: {
@@ -400,7 +402,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What is the Iterator interface, and how is it different from the ListIterator?",
-        compareHeading: ["Feature", "Iterator", "ListIterator"],
+        compareHeading: [ "Iterator", "ListIterator"],
         comparision: [
           {
             Iterator: {
@@ -440,7 +442,7 @@ const javaCollectionQuestions = {
     {
       comparision: {
         question: "How does ArrayList differ from an array in Java?",
-        compareHeading: ["Feature", "Array", "ArrayList"],
+        compareHeading: [ "Array", "ArrayList"],
         comparision: [
           {
             Array: {
@@ -478,7 +480,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What is the difference between List, Set, and Queue interfaces in the Collections Framework?",
-        compareHeading: ["Feature", "List", "Set", "Queue"],
+        compareHeading: [ "List", "Set", "Queue"],
         comparision: [
           {
             List: {
@@ -528,7 +530,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What are Vector and ArrayList in Java, and how do they differ?",
-        compareHeading: ["Feature", "Vector", "ArrayList"],
+        compareHeading: [ "Vector", "ArrayList"],
         comparision: [
           {
             Vector: {
@@ -566,7 +568,7 @@ const javaCollectionQuestions = {
     {
       comparision: {
         question: "What is the difference between HashMap and TreeMap in Java?",
-        compareHeading: ["Feature", "HashMap", "TreeMap"],
+        compareHeading: [ "HashMap", "TreeMap"],
         comparision: [
           {
             HashMap: {
@@ -607,7 +609,7 @@ const javaCollectionQuestions = {
       comparision: {
         question:
           "What are the key differences between Queue and Deque interfaces in the Java Collections Framework?",
-        compareHeading: ["Feature", "Queue", "Deque"],
+        compareHeading: [ "Queue", "Deque"],
         comparision: [
           {
             Queue: {

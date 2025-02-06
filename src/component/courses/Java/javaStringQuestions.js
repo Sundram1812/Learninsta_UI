@@ -1,6 +1,6 @@
 const javaStringQuestions = {
   id: 1,
-  title: "Core Java - Basics and String Concepts",
+  title: "Java - String ",
 
   questions: [
     {
@@ -393,7 +393,7 @@ System.out.println(isPalindrome); // Outputs: true
       comparision: {
         question:
           "How is a String created in Java and What is the difference between creating a String using a literal and using the new keyword?",
-        compareHeading: ["Feature", "String Literal", "new Keyword"],
+        compareHeading: [ "String Literal", "new Keyword"],
         comparision: [
           {
             "String Literal": {
@@ -425,7 +425,7 @@ System.out.println(isPalindrome); // Outputs: true
       comparision: {
         question:
           "What is the difference between == and .equals() when comparing Strings?",
-        compareHeading: ["Feature", "==", ".equals()"],
+        compareHeading: [ "==", ".equals()"],
         comparision: [
           {
             "==": {
@@ -453,7 +453,7 @@ System.out.println(isPalindrome); // Outputs: true
       comparision: {
         question:
           "What is the difference between using + and StringBuilder/StringBuffer?",
-        compareHeading: ["Feature", "+ Operator", "StringBuilder/StringBuffer"],
+        compareHeading: [ "+ Operator", "StringBuilder/StringBuffer"],
         comparision: [
           {
             "+ Operator": {
@@ -480,7 +480,7 @@ System.out.println(isPalindrome); // Outputs: true
       comparision: {
         question:
           "What is the difference between String, StringBuilder, and StringBuffer?",
-        compareHeading: ["Feature", "String", "StringBuilder", "StringBuffer"],
+        compareHeading: [ "String", "StringBuilder", "StringBuffer"],
         comparision: [
           {
             String: {
@@ -514,7 +514,7 @@ System.out.println(isPalindrome); // Outputs: true
       comparision: {
         question:
           "What is the difference between StringBuilder and StringBuffer?",
-        compareHeading: ["Feature", "StringBuilder", "StringBuffer"],
+        compareHeading: [ "StringBuilder", "StringBuffer"],
         comparision: [
           {
             StringBuilder: {

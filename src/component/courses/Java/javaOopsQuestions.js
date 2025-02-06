@@ -1,6 +1,6 @@
 const javaOopsQuestions = {
   id: 1,
-  title: "Core Oops - questions",
+  title: "Java - Oops Concept",
 
   questions: [
   
@@ -32,7 +32,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is the difference between encapsulation and abstraction?",
-        compareHeading: ["Feature", "Encapsulation", "Abstraction"],
+        compareHeading: [ "Encapsulation", "Abstraction"],
         comparision: [
           {
             Encapsulation: {
@@ -106,7 +106,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is the difference between method overloading and method overriding?",
-        compareHeading: ["Feature", "Method Overloading", "Method Overriding"],
+        compareHeading: [ "Method Overloading", "Method Overriding"],
         comparision: [
           {
             "Method Overloading": {
@@ -149,7 +149,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is an abstract class? How is it different from an interface?",
-        compareHeading: ["Feature", "Abstract Class", "Interface"],
+        compareHeading: [ "Abstract Class", "Interface"],
         comparision: [
           {
             "Abstract Class": {
@@ -205,7 +205,7 @@ const javaOopsQuestions = {
     {
       comparision: {
         question: "What is the difference between this and super?",
-        compareHeading: ["Feature", "this", "super"],
+        compareHeading: [ "this", "super"],
         comparision: [
           {
             this: {
@@ -244,7 +244,7 @@ const javaOopsQuestions = {
     {
       comparision: {
         question: "What is the difference between a constructor and a method?",
-        compareHeading: ["Feature", "Constructor", "Method"],
+        compareHeading: [ "Constructor", "Method"],
         comparision: [
           {
             Constructor: {
@@ -355,7 +355,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is the difference between a shallow copy and a deep copy?",
-        compareHeading: ["Feature", "Shallow Copy", "Deep Copy"],
+        compareHeading: [ "Shallow Copy", "Deep Copy"],
         comparision: [
           {
             "Shallow Copy": {
@@ -419,7 +419,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is the difference between instance variables and class variables?",
-        compareHeading: ["Feature", "Instance Variables", "Class Variables"],
+        compareHeading: [ "Instance Variables", "Class Variables"],
         comparision: [
           {
             "Instance Variables": {
@@ -621,7 +621,7 @@ const javaOopsQuestions = {
     {
       comparision: {
         question: "What is the difference between extends and implements?",
-        compareHeading: ["Feature", "extends", "implements"],
+        compareHeading: [ "extends", "implements"],
         comparision: [
           {
             extends: {
@@ -662,7 +662,7 @@ const javaOopsQuestions = {
       comparision: {
         question:
           "What is the difference between interface and abstract class?",
-        compareHeading: ["Feature", "Interface", "Abstract Class"],
+        compareHeading: [ "Interface", "Abstract Class"],
         comparision: [
           {
             Interface: {
@@ -942,7 +942,7 @@ const javaOopsQuestions = {
     {
       comparision: {
         question: "What is the difference between data hiding and abstraction?",
-        compareHeading: ["Feature", "Data Hiding", "Abstraction"],
+        compareHeading: [ "Data Hiding", "Abstraction"],
         comparision: [
           {
             "Data Hiding": {
@@ -1142,7 +1142,7 @@ const format = {
     codeSnippet: "",
     codeSnippetExplanation: "",
   },
-  compareHeading: ["Feature", "JDK", "JRE", "JVM"],
+  compareHeading: [ "JDK", "JRE", "JVM"],
   comparision: [
     {
       JDK: {

@@ -1,4 +1,6 @@
 const java8Questions = {
+  title: "Java 8",
+
   questions: [
     {
       content: {
@@ -26,7 +28,7 @@ const java8Questions = {
       comparision: {
         question:
           "What is the difference between anonymous classes and lambda expressions?",
-        compareHeading: ["Feature", "Anonymous Classes", "Lambda Expressions"],
+        compareHeading: [ "Anonymous Classes", "Lambda Expressions"],
         comparision: [
           {
             "Anonymous Classes": {
@@ -94,7 +96,7 @@ const java8Questions = {
       comparision: {
         question:
           "What is the difference between map() and flatMap() in streams?",
-        compareHeading: ["Feature", "map()", "flatMap()"],
+        compareHeading: [ "map()", "flatMap()"],
         comparision: [
           {
             "map()": {
@@ -208,7 +210,7 @@ const java8Questions = {
       comparision: {
         question:
           "What is the difference between Stream and Collection in Java 8?",
-        compareHeading: ["Feature", "Stream", "Collection"],
+        compareHeading: [ "Stream", "Collection"],
         comparision: [
           {
             Stream: {
@@ -413,7 +415,7 @@ const java8Questions = {
       comparision: {
         question:
           "What are CompletableFuture and Future? How do they differ in Java 8?",
-        compareHeading: ["Feature", "Future", "CompletableFuture"],
+        compareHeading: [ "Future", "CompletableFuture"],
         comparision: [
           {
             Future: {
@@ -447,7 +449,7 @@ const java8Questions = {
       comparision: {
         question:
           "What is the use of the toList(), toSet(), and joining() collectors in Java 8?",
-        compareHeading: ["Feature", "toList()", "toSet()", "joining()"],
+        compareHeading: [ "toList()", "toSet()", "joining()"],
         comparision: [
           {
             "toList()": {

@@ -1,6 +1,6 @@
 const javaBasic = {
   id: 1,
-  title: "Core Java - Basics and String Concepts",
+  title: "Core Java - Basics",
 
   questions: [
     {
@@ -133,7 +133,7 @@ public class Main {
     {
       "comparision": {
         "question": "What is the difference between JDK, JRE, and JVM?",
-        "compareHeading": ["Feature", "JDK", "JRE", "JVM"],
+        "compareHeading": [ "JDK", "JRE", "JVM"],
         "comparision": [
           {
             "JDK": {

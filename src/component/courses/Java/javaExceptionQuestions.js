@@ -1,6 +1,6 @@
 const javaExceptionQuestions = {
   id: 1,
-  title: "Core Java - Exception",
+  title: "Java - Exception",
   questions: [
     {
       content: {
@@ -428,7 +428,7 @@ const javaExceptionQuestions = {
     {
       comparision: {
         question: "What is the difference between Error and Exception?",
-        compareHeading: ["Feature", "Error", "Exception"],
+        compareHeading: [ "Error", "Exception"],
         comparision: [
           {
             Error: {
@@ -515,7 +515,7 @@ const javaExceptionQuestions = {
     {
       "comparision": {
         "question": "What is the difference between throw and throws?",
-        "compareHeading": ["Feature", "throw", "throws"],
+        "compareHeading": [ "throw", "throws"],
         "comparision": [
           {
             "throw": {
@@ -542,7 +542,7 @@ const javaExceptionQuestions = {
     {
       "comparision": {
         "question": "What is the difference between final, finally, and finalize?",
-        "compareHeading": ["Feature", "final", "finally", "finalize"],
+        "compareHeading": [ "final", "finally", "finalize"],
         "comparision": [
           {
             "final": {
@@ -578,7 +578,7 @@ const javaExceptionQuestions = {
     {
       "comparision": {
         "question": "What is the difference between printStackTrace() and toString() in exception handling?",
-        "compareHeading": ["Feature", "printStackTrace()", "toString()"],
+        "compareHeading": [ "printStackTrace()", "toString()"],
         "comparision": [
           {
             "printStackTrace()": {
