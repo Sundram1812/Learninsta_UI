@@ -119,6 +119,7 @@ function QuestionLayout({ children }) {
               <AccordionComponent
                 langContent={lang}
                 icon={lang.icon} // Pass icon to AccordionComponent
+                setIsOpenNav={setIsOpenNav}
               />
             </motion.div>
           ))}

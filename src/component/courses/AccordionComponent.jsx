@@ -67,7 +67,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   color: theme.palette.mode === "dark" ? "#e5e7eb" : "#374151", // Dynamic text color
 }));
 
-function AccordionComponent({ langContent, icon}) {
+function AccordionComponent({ langContent, icon, setIsOpenNav}) {
   const [expanded, setExpanded] = React.useState("");
 
 
@@ -132,6 +132,7 @@ function AccordionComponent({ langContent, icon}) {
               component={NavLink}
               to={`/interviews/${langContent?.language.toLowerCase()}/${topic.toLowerCase()}`}
               className={` py-2 hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] pl-5 block rounded-sm transition-all duration-300 `}
+              onClick={()=> setIsOpenNav(e=> !e)}
             >
               {topic}
               <div />
