@@ -108,8 +108,8 @@ function AboutUs() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {/* Vision Section */}
         <motion.div
-          className="p-6 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-          variants={itemVariants}
+          className="p-6 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lghover:shadow-xl transition-shadow duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.68)]"
+          variants={itemVariants} 
         >
           <div className="flex items-center mb-4">
             <FaLightbulb className="text-4xl text-yellow-500 mr-4" />
@@ -124,7 +124,7 @@ function AboutUs() {
 
         {/* Why We Stand Out Section */}
         <motion.div
-          className="p-6 bg-gradient-to-br from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+          className="p-6 bg-gradient-to-br from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 rounded-xl  transition-shadow duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.68)]"
           variants={itemVariants}
         >
           <div className="flex items-center mb-4">
@@ -141,7 +141,7 @@ function AboutUs() {
 
         {/* Expert Guidance Section */}
         <motion.div
-          className="p-6 bg-gradient-to-br from-pink-50 to-red-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+          className="p-6 bg-gradient-to-br from-pink-50 to-red-50 dark:from-gray-800 dark:to-gray-900 rounded-xl transition-shadow duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.68)]"
           variants={itemVariants}
         >
           <div className="flex items-center mb-4">
@@ -157,7 +157,7 @@ function AboutUs() {
 
         {/* Results Section */}
         <motion.div
-          className="p-6 bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+          className="p-6 bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 rounded-xl transition-shadow duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.68)]"
           variants={itemVariants}
         >
           <div className="flex items-center mb-4">
