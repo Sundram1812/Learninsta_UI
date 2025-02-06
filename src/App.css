@@ -1,0 +1,11 @@
+.active{
+    /* color: "#492652"; */
+    color: "#111827";
+    background-color: "#111827"
+}
+
+/* bg-gray-900 text-white */
+
+.hero-bg-patter{
+    background-image: url('./assets/herobg.png')
+}

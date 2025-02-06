@@ -1,0 +1,28 @@
+.code-snippet-container {
+    background-color: #1e293b; /* Dark background */
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .code-snippet-container pre {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .code-snippet-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .code-snippet-container::-webkit-scrollbar-thumb {
+    background: #4b5563; /* Gray scrollbar */
+    border-radius: 4px;
+  }
+  
+  .code-snippet-container::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+  

@@ -1,0 +1,9 @@
+.dark{
+    --main-bg: '#111827';
+    --nav-bg: '#1f2937';
+    --text-primary: '#ffffff';
+    --subtext-primary: '#6b7280'
+    --text-secondry: '#22c55e';
+    --bg-card: '#1f2937';
+    --bg-card-icon: '#374151';
+}
