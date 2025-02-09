@@ -32,9 +32,11 @@ function QuestionAnswerCard({ question, quesNo }) {
         <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg ]">
           {question?.content?.explanation && (
             <div className="flex gap-2 items-start mb-4">
-              <FaLightbulb className="text-yellow-500 dark:text-yellow-400 text-2xl mt-1" />
-              <div className="dark:text-gray-300 text-gray-700 italic text-left">
-                {question?.content?.explanation}
+              <FaLightbulb className="text-yellow-500 hidden md:block dark:text-yellow-400 text-2xl mt-1" />
+              <div className="dark:text-gray-300 text-gray-700 italic text-left overflow-x-scroll no-scrollbar">
+                {/* {question?.content?.explanation} */}
+                <div dangerouslySetInnerHTML={{ __html: question?.content?.explanation }} />
+
               </div>
             </div>
           )}

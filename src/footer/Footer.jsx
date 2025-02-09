@@ -6,7 +6,7 @@ const footerContent = ["About", "Blog", "Jobs", "Partners"];
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-gray-800 dark:to-gray-900 text-white py-12 mt-20 z-20 border-t dark:border-none">
+    <footer className="z-20 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-gray-800 dark:to-gray-900 text-white py-12 mt-20  border-t dark:border-none">
       <div className="container mx-auto px-4 ">
         {/* Call-to-Action Section */}
         <div className="text-center mb-8">
@@ -20,7 +20,7 @@ const Footer = () => {
               placeholder="Enter your email"
               className="px-4 py-0 rounded-l-lg focus:outline-none text-gray-800"
             />
-            <button className="z-30 bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-700 hover:to-purple-800 text-white  text-center  ease-in-out   transform hover:scale-105 px-6 py-3 rounded-r-lg transition duration-300">
+            <button className=" bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-700 hover:to-purple-800 text-white  text-center  ease-in-out   transform hover:scale-105 px-6 py-3 rounded-r-lg transition duration-300">
               Subscribe
             </button>
           </div>

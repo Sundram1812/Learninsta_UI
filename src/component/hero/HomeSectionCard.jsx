@@ -1,26 +1,6 @@
-// import React from 'react'
-
-// function HomeSectionCard({content}) {
-//   return (
-//     <>
-//     <div className='flex items-center gap-4 w-auto overflow-x-hidden dark:bg-gray-800  font-semibold text-gray-700 dark:text-white py-2 px-4 rounded ml-2 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
-//        <span>{content?.icon}</span>
-//        <span> {content?.name}</span>
-//     </div>
-
-//     <div>
-//       {content?.desc}
-//     </div>
-//     </>
-//   )
-// }
-
-// export default HomeSectionCard
-
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion, AnimatePresence } from "framer-motion";
-
 
 function HomeSectionCard({ content }) {
   const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
@@ -41,9 +21,11 @@ function HomeSectionCard({ content }) {
         </div>
 
         <div>
-          {
-            isDescriptionVisible ? <ChevronDownIcon className="h-5 w-5 text-gray-500"/> : <ChevronRightIcon className="h-5 w-5 text-gray-500 font-bold"/> 
-          }
+          {isDescriptionVisible ? (
+            <ChevronDownIcon className="h-5 w-5 text-gray-500" />
+          ) : (
+            <ChevronRightIcon className="h-5 w-5 text-gray-500 font-bold" />
+          )}
         </div>
       </div>
 

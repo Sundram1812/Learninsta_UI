@@ -2,9 +2,17 @@ import React, { useEffect, useState } from "react";
 import "../../App.css";
 import { styles } from "../../styles";
 import HomeSectionCard from "./HomeSectionCard";
-import { FaCode, FaDatabase, FaMicrochip, FaReact, FaJava } from "react-icons/fa"; // Icons for visual appeal
+import {
+  FaCode,
+  FaDatabase,
+  FaMicrochip,
+  FaReact,
+  FaJava,
+  FaArrowRight,
+} from "react-icons/fa"; // Icons for visual appeal
 import { motion } from "framer-motion"; // For animations
 import SectionWrapper from "../HOC/SectionWrapper";
+import { NavLink } from "react-router-dom";
 
 const languages = [
   {
@@ -80,6 +88,25 @@ function Home() {
             sharpen your technical skills, we have you covered.
           </p>
         </motion.div>
+
+        <div className="mt-10 max-w-[25rem] mx-auto">
+          <motion.div
+            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <NavLink
+              to="/interviews"
+              className="flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold uppercase hover:from-blue-700 hover:to-purple-700 transition-all duration-300  hover:shadow-xl transform hover:scale-105 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+            >
+              <span className="flex gap-1">
+                <span className="hidden md:block">Start</span> Interview Prep
+              </span>
+              <FaArrowRight className="w-5 h-5" />
+            </NavLink>
+          </motion.div>
+        </div>
 
         {/* What We Offer Section */}
         <motion.div

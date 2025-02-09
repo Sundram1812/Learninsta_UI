@@ -75,7 +75,7 @@ function WelcomePage() {
       <motion.div variants={itemVariants}>
         <NavLink
           to="/interviews/java/basics"
-          className="flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold uppercase hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+          className="flex items-center  justify-between gap-2 px-8 sm:px-12 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold uppercase hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:shadow-xl transform hover:scale-105 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         >
           <span>Get Started</span>
           <FaArrowRight className="w-5 h-5" />
@@ -89,7 +89,7 @@ function WelcomePage() {
       >
         {/* Feature 1 */}
         <motion.div
-          className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="p-6 bg-white dark:bg-gray-800 rounded-xl hover:shadow-lg transition-shadow duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
           variants={itemVariants}
         >
           <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-4">
@@ -102,7 +102,7 @@ function WelcomePage() {
 
         {/* Feature 2 */}
         <motion.div
-          className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:shadow-lg transition-shadow duration-300"
           variants={itemVariants}
         >
           <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-4">
@@ -115,7 +115,7 @@ function WelcomePage() {
 
         {/* Feature 3 */}
         <motion.div
-          className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:shadow-lg transition-shadow duration-300"
           variants={itemVariants}
         >
           <h3 className="text-xl font-bold text-green-600 dark:text-green-400 mb-4">

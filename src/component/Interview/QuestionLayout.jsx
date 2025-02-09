@@ -1,7 +1,6 @@
 /* eslint-disable */
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
-import { NavLink, useLocation } from "react-router-dom";
 import AccordionComponent from "../courses/AccordionComponent";
 import { motion } from "framer-motion";
 import {
@@ -63,11 +62,14 @@ const languagess = [
   // Additional languages...
 ];
 
+
+
 function QuestionLayout({ children }) {
   const [isOpenNav, setIsOpenNav] = useState(false);
+  const scrollRef = useRef(null);
 
   return (
-    <div className="flex flex-row gap-2 relative transition-all duration-500 py-1 min-h-[63vh] overflow-y-auto no-scrollbar z-0">
+    <div className="scroll-container flex flex-row gap-2 relative transition-all duration-500 py-1 min-h-[63vh] overflow-y-auto no-scrollbar z-0">
       {/* Sidebar Toggle Icon (Mobile Only) */}
       <motion.div
         onClick={() => setIsOpenNav(!isOpenNav)}
@@ -129,12 +131,13 @@ function QuestionLayout({ children }) {
       {/* Main Content */}
 
       <motion.div
-        className={`h-[90vh] dark:bg-gray-900 bg-white basis-full relative z-0 py-4 pt-8 px-6 overflow-y-auto no-scrollbar overflow-x-hidden rounded-md min-h-[63vh] transition-all duration-500 ease-in-out`}
+        className={`parent h-[90vh] dark:bg-gray-900 bg-white basis-full relative z-0 py-4 pt-8 px-6 overflow-y-auto no-scrollbar overflow-x-hidden rounded-md min-h-[63vh] transition-all duration-500 ease-in-out`}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className="rounded-md sm:p-4">
+        <ScrollToTop/>
+        <div className="rounded-md sm:p-4 ">
           {children || (
             <p className="text-gray-500 dark:text-gray-300 text-center">
               No Content Available
