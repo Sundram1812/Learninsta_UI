@@ -2,27 +2,17 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import "./LightDark.css"
 import Home from "./component/hero/Home";
-// import Interviews from "./component/Interview/Interviews";
+
 import AboutUs from "./component/about/AboutUs";
 import ContactUs from "./component/contact/ContactUs";
 import NavBar from "./component/navigation/Navbar";
 import Footer from "./footer/Footer";
 import Signin from "./component/user/Signin";
 import Signup from "./component/user/Signup";
-// import Java from "./component/courses/Java/Java";
-// import Springboot from "./component/courses/Springboot/Springboot";
+
 import QuestionLayout from "./component/Interview/QuestionLayout";
 import Test from "./Test";
-// import Microservices from "./component/courses/Microservices/Microservices";
-// import Mysql from "./component/courses/MySQL/Mysql";
-// import HibernateJpa from "./component/courses/HibernameJPA/HibernateJpa";
-// import Kafka from "./component/courses/Kafka/Kafka";
-// import SystemDesign from "./component/courses/SystemDesign/SystemDesign";
-// import Html from "./component/courses/HTML/Html";
-// import Css from "./component/courses/CSS/Css";
-// import Javascript from "./component/courses/JS/Javascript";
-// import React from "./component/courses/ReactJs/ReactQues";
-// import ReactQues from "./component/courses/ReactJs/ReactQues";
+
 import JavaString from "./component/courses/Java/JavaString";
 import JavaMultithreading from "./component/courses/Java/JavaMultithreading";
 import JavaException from "./component/courses/Java/JavaException";
@@ -33,18 +23,25 @@ import WelcomePage from "./component/Interview/WelcomePage";
 import PageNotFound from "./Utilities/PageNotFound";
 import JavaBasics from "./component/courses/Java/JavaBasics";
 import {SpringbootBasic, SpringbootCore,SpringbootDataAccess,SpringbootRestAPI,SpringbootSecurity} from "./component/courses/Springboot/springboot.js"
+import {  APIGateway,
+  ConfigurationManagement,
+  ContainerizationDeployment,
+  DatabaseTransactions,
+  DistributedLogging,
+  EventDrivenMicroservices,
+  LoadBalancing,
+  MicroservicesArchitecture,
+  MicroservicesDesignPatterns,
+  MicroservicesSecurity,
+  MicroservicesTesting,
+  ServiceCommunication,
+  ServiceDiscovery,
+  SpringBootMicroservices} from "./component/courses/Microservices/Microservices.js"
 
 import ToggleDarkMode from "./component/light-dark-mode/ToggleDarkMode";
-import { useEffect, useLayoutEffect } from "react";
+import { useEffect } from "react";
 import ScrollToTop from "./Utilities/ScrollToTop";
 
-const Wrapper = ({children}) => {
-  const location = useLocation();
-  useLayoutEffect(() => {
-    document.documentElement.scrollTo(0, 0);
-  }, [location.pathname]);
-  return children
-} 
 
 function App() {
 
@@ -88,6 +85,23 @@ function App() {
           <Route path="interviews/springboot/bootrestapi" element={<QuestionLayout><SpringbootRestAPI/></QuestionLayout>} />
           <Route path="interviews/springboot/bootdataaccess" element={<QuestionLayout><SpringbootDataAccess/></QuestionLayout>} />
           <Route path="interviews/springboot/bootsecurity" element={<QuestionLayout><SpringbootSecurity/></QuestionLayout>} />
+
+          {/* Microservices */}
+          <Route path="interviews/microservices/microservicesarchitecture" element={<QuestionLayout><MicroservicesArchitecture/></QuestionLayout>} />
+          <Route path="interviews/microservices/springbootmicroservices" element={<QuestionLayout><SpringBootMicroservices/></QuestionLayout>} />
+          <Route path="interviews/microservices/servicecommunication" element={<QuestionLayout><ServiceCommunication/></QuestionLayout>} />
+          <Route path="interviews/microservices/servicediscovery" element={<QuestionLayout><ServiceDiscovery/></QuestionLayout>} />
+          <Route path="interviews/microservices/apigateway" element={<QuestionLayout><APIGateway/></QuestionLayout>} />
+          <Route path="interviews/microservices/loadbalancing" element={<QuestionLayout><LoadBalancing/></QuestionLayout>} />
+          <Route path="interviews/microservices/configurationmanagement" element={<QuestionLayout><ConfigurationManagement/></QuestionLayout>} />
+          <Route path="interviews/microservices/microservicessecurity" element={<QuestionLayout><MicroservicesSecurity/></QuestionLayout>} />
+          <Route path="interviews/microservices/distributedlogging" element={<QuestionLayout><DistributedLogging/></QuestionLayout>} />
+          <Route path="interviews/microservices/eventdrivenmicroservices" element={<QuestionLayout><EventDrivenMicroservices/></QuestionLayout>} />
+          <Route path="interviews/microservices/databasetransactions" element={<QuestionLayout><DatabaseTransactions/></QuestionLayout>} />
+          <Route path="interviews/microservices/microservicestesting" element={<QuestionLayout><MicroservicesTesting/></QuestionLayout>} />
+          <Route path="interviews/microservices/containerizationdeployment" element={<QuestionLayout><ContainerizationDeployment/></QuestionLayout>} />
+          <Route path="interviews/microservices/microservicesdesignpatterns" element={<QuestionLayout><MicroservicesDesignPatterns/></QuestionLayout>} />
+
 
 
           <Route path="*" element={<PageNotFound/>}/>
